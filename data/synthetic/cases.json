@@ -1,0 +1,1015 @@
+[
+  {
+    "provider": "video_capable",
+    "reference": "clean_video_match",
+    "declared": {
+      "fullName": "Arif Rahman Chowdhury",
+      "dateOfBirth": "1993-04-17",
+      "nationality": "BGD",
+      "documentNumber": "BP7741820"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Arif Rahman Chowdhury",
+      "dateOfBirth": "1993-04-17",
+      "nationality": "BGD",
+      "number": "BP7741820"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/clean_video_match/selfie.jpg",
+        "identity_seed": "id-101",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/clean_video_match/portrait.jpg",
+        "identity_seed": "id-101",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/clean_video_match/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-101/frame-00.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-00",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-01.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-01",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-02.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-02",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-03.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-03",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-04.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-04",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-05.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-05",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-06.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-06",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-07.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-07",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-08.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-08",
+            "faces": [
+              "id-101"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-101/frame-09.jpg",
+            "identity_seed": "id-101",
+            "capture": "frame-09",
+            "faces": [
+              "id-101"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "transliteration_variant",
+    "declared": {
+      "fullName": "Md. Kamal Hossain",
+      "dateOfBirth": "1990-11-02",
+      "nationality": "BGD",
+      "documentNumber": "BP5520114"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Mohammad Kamal Hosain",
+      "dateOfBirth": "1990-11-02",
+      "nationality": "BGD",
+      "number": "BP5520114"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/transliteration_variant/selfie.jpg",
+        "identity_seed": "id-102",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/transliteration_variant/portrait.jpg",
+        "identity_seed": "id-102",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/transliteration_variant/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-102/frame-00.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-00",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-01.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-01",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-02.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-02",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-03.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-03",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-04.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-04",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-05.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-05",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-06.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-06",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-07.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-07",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-08.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-08",
+            "faces": [
+              "id-102"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-102/frame-09.jpg",
+            "identity_seed": "id-102",
+            "capture": "frame-09",
+            "faces": [
+              "id-102"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "name_order_swapped",
+    "declared": {
+      "fullName": "Chowdhury Nusrat Jahan",
+      "dateOfBirth": "1995-02-09",
+      "nationality": "BGD",
+      "documentNumber": "BP3390277"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Nusrat Jahan Chowdhury",
+      "dateOfBirth": "1995-02-09",
+      "nationality": "BGD",
+      "number": "BP3390277"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/name_order_swapped/selfie.jpg",
+        "identity_seed": "id-103",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/name_order_swapped/portrait.jpg",
+        "identity_seed": "id-103",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/name_order_swapped/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-103/frame-00.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-00",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-01.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-01",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-02.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-02",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-03.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-03",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-04.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-04",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-05.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-05",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-06.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-06",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-07.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-07",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-08.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-08",
+            "faces": [
+              "id-103"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-103/frame-09.jpg",
+            "identity_seed": "id-103",
+            "capture": "frame-09",
+            "faces": [
+              "id-103"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "middle_name_missing",
+    "declared": {
+      "fullName": "Sadia Islam",
+      "dateOfBirth": "1992-06-30",
+      "nationality": "BGD",
+      "documentNumber": "BP8811902"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Sadia Akter Islam",
+      "dateOfBirth": "1992-06-30",
+      "nationality": "BGD",
+      "number": "BP8811902"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/middle_name_missing/selfie.jpg",
+        "identity_seed": "id-104",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/middle_name_missing/portrait.jpg",
+        "identity_seed": "id-104",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/middle_name_missing/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-104/frame-00.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-00",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-01.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-01",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-02.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-02",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-03.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-03",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-04.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-04",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-05.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-05",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-06.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-06",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-07.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-07",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-08.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-08",
+            "faces": [
+              "id-104"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-104/frame-09.jpg",
+            "identity_seed": "id-104",
+            "capture": "frame-09",
+            "faces": [
+              "id-104"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "dob_day_month_transposed",
+    "declared": {
+      "fullName": "Tanvir Ahmed",
+      "dateOfBirth": "1991-05-08",
+      "nationality": "BGD",
+      "documentNumber": "BP2245901"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Tanvir Ahmed",
+      "dateOfBirth": "1991-08-05",
+      "nationality": "BGD",
+      "number": "BP2245901"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/dob_day_month_transposed/selfie.jpg",
+        "identity_seed": "id-105",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/dob_day_month_transposed/portrait.jpg",
+        "identity_seed": "id-105",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/dob_day_month_transposed/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-105/frame-00.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-00",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-01.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-01",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-02.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-02",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-03.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-03",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-04.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-04",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-05.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-05",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-06.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-06",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-07.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-07",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-08.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-08",
+            "faces": [
+              "id-105"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-105/frame-09.jpg",
+            "identity_seed": "id-105",
+            "capture": "frame-09",
+            "faces": [
+              "id-105"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "document_number_ocr_confusion",
+    "declared": {
+      "fullName": "Farhana Yeasmin",
+      "dateOfBirth": "1994-01-21",
+      "nationality": "BGD",
+      "documentNumber": "BP0O12345"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Farhana Yeasmin",
+      "dateOfBirth": "1994-01-21",
+      "nationality": "BGD",
+      "number": "BP0012345"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/document_number_ocr_confusion/selfie.jpg",
+        "identity_seed": "id-106",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/document_number_ocr_confusion/portrait.jpg",
+        "identity_seed": "id-106",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/document_number_ocr_confusion/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-106/frame-00.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-00",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-01.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-01",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-02.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-02",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-03.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-03",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-04.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-04",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-05.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-05",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-06.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-06",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-07.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-07",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-08.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-08",
+            "faces": [
+              "id-106"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-106/frame-09.jpg",
+            "identity_seed": "id-106",
+            "capture": "frame-09",
+            "faces": [
+              "id-106"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "second_person_in_frame",
+    "declared": {
+      "fullName": "Rakib Hasan",
+      "dateOfBirth": "1996-09-14",
+      "nationality": "BGD",
+      "documentNumber": "BP6678230"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Rakib Hasan",
+      "dateOfBirth": "1996-09-14",
+      "nationality": "BGD",
+      "number": "BP6678230"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/second_person_in_frame/selfie.jpg",
+        "identity_seed": "id-107",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/second_person_in_frame/portrait.jpg",
+        "identity_seed": "id-107",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/second_person_in_frame/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-107/frame-00.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-00",
+            "faces": [
+              "id-107"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-01.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-01",
+            "faces": [
+              "id-107"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-02.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-02",
+            "faces": [
+              "id-107"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-03.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-03",
+            "faces": [
+              "id-107"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-04.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-04",
+            "faces": [
+              "id-107",
+              "id-999"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-05.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-05",
+            "faces": [
+              "id-107",
+              "id-999"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-06.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-06",
+            "faces": [
+              "id-107",
+              "id-999"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-07.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-07",
+            "faces": [
+              "id-107",
+              "id-999"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-08.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-08",
+            "faces": [
+              "id-107",
+              "id-999"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-107/frame-09.jpg",
+            "identity_seed": "id-107",
+            "capture": "frame-09",
+            "faces": [
+              "id-107",
+              "id-999"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "different_person_in_video",
+    "declared": {
+      "fullName": "Imran Kabir",
+      "dateOfBirth": "1989-12-05",
+      "nationality": "BGD",
+      "documentNumber": "BP4432118"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Imran Kabir",
+      "dateOfBirth": "1989-12-05",
+      "nationality": "BGD",
+      "number": "BP4432118"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/different_person_in_video/selfie.jpg",
+        "identity_seed": "id-108",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/different_person_in_video/portrait.jpg",
+        "identity_seed": "id-108",
+        "capture": "portrait"
+      },
+      "video": {
+        "uri": "s3://synthetic/different_person_in_video/video.mp4",
+        "durationSeconds": 18.0,
+        "frames": [
+          {
+            "uri": "s3://synthetic/id-777/frame-00.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-00",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-01.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-01",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-02.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-02",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-03.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-03",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-04.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-04",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-05.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-05",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-06.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-06",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-07.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-07",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-08.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-08",
+            "faces": [
+              "id-777"
+            ]
+          },
+          {
+            "uri": "s3://synthetic/id-777/frame-09.jpg",
+            "identity_seed": "id-777",
+            "capture": "frame-09",
+            "faces": [
+              "id-777"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "provider": "video_capable",
+    "reference": "video_expected_but_absent",
+    "declared": {
+      "fullName": "Priya Das",
+      "dateOfBirth": "1997-03-11",
+      "nationality": "BGD",
+      "documentNumber": "BP9903471"
+    },
+    "document": {
+      "type": "passport",
+      "fullName": "Priya Das",
+      "dateOfBirth": "1997-03-11",
+      "nationality": "BGD",
+      "number": "BP9903471"
+    },
+    "media": {
+      "selfie": {
+        "uri": "s3://synthetic/video_expected_but_absent/selfie.jpg",
+        "identity_seed": "id-109",
+        "capture": "selfie"
+      },
+      "documentPortrait": {
+        "uri": "s3://synthetic/video_expected_but_absent/portrait.jpg",
+        "identity_seed": "id-109",
+        "capture": "portrait"
+      }
+    }
+  },
+  {
+    "provider": "data_only",
+    "applicantId": "data_only_clean",
+    "info": {
+      "fullName": "Nurul Aina Binti Zulkifli",
+      "dob": "17/04/1993",
+      "country": "MYS",
+      "idDocNumber": "A1234567"
+    },
+    "idDoc": {
+      "docType": "ID_CARD",
+      "fullName": "Nurul Aina Zulkifli",
+      "dob": "1993-04-17",
+      "country": "MYS",
+      "number": "A1234567"
+    },
+    "images": {
+      "selfie": {
+        "uri": "s3://synthetic/data_only_clean/selfie.jpg",
+        "identity_seed": "id-201",
+        "capture": "selfie"
+      },
+      "docPortrait": {
+        "uri": "s3://synthetic/data_only_clean/portrait.jpg",
+        "identity_seed": "id-201",
+        "capture": "portrait"
+      }
+    }
+  },
+  {
+    "provider": "data_only",
+    "applicantId": "data_only_name_mismatch",
+    "info": {
+      "fullName": "Wei Ling Tan",
+      "dob": "17/04/1993",
+      "country": "MYS",
+      "idDocNumber": "A1234567"
+    },
+    "idDoc": {
+      "docType": "ID_CARD",
+      "fullName": "Siti Aminah Rahman",
+      "dob": "1993-04-17",
+      "country": "MYS",
+      "number": "A1234567"
+    },
+    "images": {
+      "selfie": {
+        "uri": "s3://synthetic/data_only_name_mismatch/selfie.jpg",
+        "identity_seed": "id-202",
+        "capture": "selfie"
+      },
+      "docPortrait": {
+        "uri": "s3://synthetic/data_only_name_mismatch/portrait.jpg",
+        "identity_seed": "id-202",
+        "capture": "portrait"
+      }
+    }
+  }
+]

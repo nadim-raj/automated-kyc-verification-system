@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automated-kyc-verification-system"
+version = "0.1.0"
+description = "Clean-room reference implementation of an automated KYC verification pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Kazi Nadimul Haque" }]
+keywords = ["kyc", "identity-verification", "nlp", "computer-vision", "human-in-the-loop"]
+dependencies = []
+
+[project.optional-dependencies]
+# The pipeline runs on the standard library alone. These extras swap the
+# synthetic implementations for real models.
+ml = [
+  "torch>=2.2",
+  "spacy>=3.7",
+  "rapidfuzz>=3.6",
+]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.5",
+]
+
+[project.scripts]
+kyc-demo = "kyc_pipeline.demo:main"
+
+[tool.setuptools.packages.find]
+include = ["kyc_pipeline*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
