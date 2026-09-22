@@ -1,8 +1,9 @@
-.PHONY: help data demo test lint clean
+.PHONY: help data demo eval test lint clean
 
 help:
 	@echo "make data   - regenerate the synthetic case fixtures"
 	@echo "make demo   - run the pipeline over the synthetic cases"
+	@echo "make eval   - score routing against reviewer labels"
 	@echo "make test   - run the test suite (standard library only)"
 	@echo "make lint   - run ruff, if installed"
 
@@ -11,6 +12,9 @@ data:
 
 demo:
 	python3 -m kyc_pipeline.demo
+
+eval:
+	python3 -m kyc_pipeline.evaluation
 
 test:
 	python3 -m unittest discover -s tests -v

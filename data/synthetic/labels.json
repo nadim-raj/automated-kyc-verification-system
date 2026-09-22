@@ -1,0 +1,16 @@
+{
+  "_comment": "Reviewer labels for the synthetic fixtures: what a human reviewer would decide for each case. Ground truth for evaluation, kept separate from the cases themselves because in a real deployment labels come from reviewers long after the case arrives.",
+  "labels": {
+    "clean_video_match": { "reviewer_outcome": "clear", "note": "everything agrees" },
+    "transliteration_variant": { "reviewer_outcome": "clear", "note": "same name, different transliteration" },
+    "name_order_swapped": { "reviewer_outcome": "clear", "note": "given and family name ordered differently on the form" },
+    "middle_name_missing": { "reviewer_outcome": "clear", "note": "middle name omitted on the form" },
+    "dob_day_month_transposed": { "reviewer_outcome": "escalate", "note": "date fields disagree; a person should confirm which is correct" },
+    "document_number_ocr_confusion": { "reviewer_outcome": "clear", "note": "zero read as the letter O" },
+    "second_person_in_frame": { "reviewer_outcome": "escalate", "note": "a second face appears partway through the recording" },
+    "different_person_in_video": { "reviewer_outcome": "escalate", "note": "the person recorded is not the person on the document" },
+    "video_expected_but_absent": { "reviewer_outcome": "escalate", "note": "expected evidence never arrived" },
+    "data_only_clean": { "reviewer_outcome": "clear", "note": "documents agree; provider supplies no video" },
+    "data_only_name_mismatch": { "reviewer_outcome": "escalate", "note": "names do not correspond" }
+  }
+}

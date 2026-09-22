@@ -22,3 +22,6 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Run the demo
         run: python -m kyc_pipeline.demo --limit 5
+      - name: Score routing against reviewer labels
+        # Fails the build if a case a reviewer would stop was cleared automatically.
+        run: python -m kyc_pipeline.evaluation
