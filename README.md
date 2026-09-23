@@ -91,6 +91,8 @@ data_only_name_mismatch        data_only       review      name_match scored 0.4
 | `kyc_pipeline/face/` | Embedding interface, synthetic and PyTorch adapters, presence counting |
 | `kyc_pipeline/video/` | Frame sampling behind a source interface |
 | `kyc_pipeline/policy.py` | Routing bands (illustrative placeholders) |
+| `kyc_pipeline/calibration.py` | Threshold sweep: what moving each band costs |
+| `kyc_pipeline/evaluation.py` | Routing scored against reviewer labels |
 | `kyc_pipeline/orchestrator.py` | Signals in, routing decision out |
 | `kyc_pipeline/review.py` | The packet a reviewer receives; redacted records for logs |
 | `kyc_pipeline/pii.py` | Masking and salted pseudonymisation |
@@ -101,6 +103,7 @@ data_only_name_mismatch        data_only       review      name_match scored 0.4
 
 - [Architecture](docs/architecture.md) — components, data flow, and the interfaces that keep models swappable
 - [Evaluation](docs/evaluation.md) — how to tell whether a change helped, without shipping a regression to real customers
+- [Calibration](docs/calibration.md) — how the routing bands would be chosen, and what the sweep reveals about the fixtures
 - [Privacy](docs/privacy.md) — data minimisation, redaction, retention, and access
 - [Scope and exclusions](docs/scope-and-exclusions.md) — what is deliberately missing and why
 - Decision records:

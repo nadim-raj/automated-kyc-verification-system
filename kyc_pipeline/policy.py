@@ -8,6 +8,9 @@ staying just underneath it.
 
 Real calibration belongs in private configuration, derived from a reviewer-
 labelled sample and revisited as the mix of customers changes.
+
+`kyc_pipeline/calibration.py` (``make calibrate``) sweeps each band and shows
+what moving it costs, which is the method you would apply to that sample.
 """
 
 from __future__ import annotations
