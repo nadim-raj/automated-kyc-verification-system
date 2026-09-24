@@ -95,6 +95,7 @@ data_only_name_mismatch        data_only       review      name_match scored 0.4
 | `kyc_pipeline/evaluation.py` | Routing scored against reviewer labels |
 | `kyc_pipeline/orchestrator.py` | Signals in, routing decision out |
 | `kyc_pipeline/review.py` | The packet a reviewer receives; redacted records for logs |
+| `kyc_pipeline/observability.py` | Routing metrics and log records that cannot carry personal data |
 | `kyc_pipeline/pii.py` | Masking and salted pseudonymisation |
 | `kyc_pipeline/synthetic.py` | Fixture generator covering every scenario |
 | `docs/` | Architecture, decision records, evaluation, privacy, scope |
@@ -105,6 +106,7 @@ data_only_name_mismatch        data_only       review      name_match scored 0.4
 - [Evaluation](docs/evaluation.md) — how to tell whether a change helped, without shipping a regression to real customers
 - [Calibration](docs/calibration.md) — how the routing bands would be chosen, and what the sweep reveals about the fixtures
 - [Privacy](docs/privacy.md) — data minimisation, redaction, retention, and access
+- [Runbook](docs/runbook.md) — what to do when the escalation rate moves, a model is unavailable, or a provider changes shape
 - [Scope and exclusions](docs/scope-and-exclusions.md) — what is deliberately missing and why
 - Decision records:
   - [0001 — Separate text and vision signals](docs/decisions/0001-separate-text-and-vision-signals.md)
@@ -112,6 +114,7 @@ data_only_name_mismatch        data_only       review      name_match scored 0.4
   - [0003 — Providers that supply no video](docs/decisions/0003-providers-without-video.md)
   - [0004 — Clean room and synthetic data](docs/decisions/0004-clean-room-and-synthetic-data.md)
   - [0005 — Heavy dependencies stay optional](docs/decisions/0005-optional-model-dependencies.md)
+  - [0006 — Fail CI on a missed escalation](docs/decisions/0006-fail-ci-on-a-missed-escalation.md)
 
 ## Licence
 

@@ -33,16 +33,28 @@ class Orchestrator:
         self.max_frames = max_frames
 
     def collect_signals(self, case: VerificationCase) -> tuple[Signal, ...]:
+        """Every check, including the ones that could not run.
+
+        A check that was not possible is recorded as an unavailable signal
+        rather than left out. Omitting it makes a case with no video
+        indistinguishable downstream from one whose video check failed, which
+        is precisely the distinction the domain model exists to keep.
+        """
         signals: list[Signal] = list(text_signals(case.claim, case.document))
         media = case.media
 
         if media.has_face_pair:
             signals.append(face_match_signal(media, self.embedder))
+        else:
+            signals.append(Signal.missing("face_match", "no selfie and document portrait pair"))
 
         if media.has_video:
             frames = sample_frames(media.video, max_frames=self.max_frames)  # type: ignore[arg-type]
             signals.append(sole_presence_signal(frames, self.counter))
             signals.append(video_consistency_signal(frames, media.document_portrait, self.embedder))
+        else:
+            signals.append(Signal.missing("sole_presence", "no video supplied for this case"))
+            signals.append(Signal.missing("video_consistency", "no video supplied for this case"))
 
         return tuple(signals)
 
