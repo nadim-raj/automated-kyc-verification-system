@@ -1,10 +1,11 @@
-.PHONY: help data demo eval calibrate test lint clean
+.PHONY: help data demo eval calibrate capacity test lint clean
 
 help:
 	@echo "make data   - regenerate the synthetic case fixtures"
 	@echo "make demo   - run the pipeline over the synthetic cases"
 	@echo "make eval   - score routing against reviewer labels"
 	@echo "make calibrate - sweep routing bands and show the trade-off"
+	@echo "make capacity  - price each band setting in reviewer headcount"
 	@echo "make test   - run the test suite (standard library only)"
 	@echo "make lint   - run ruff, if installed"
 
@@ -19,6 +20,9 @@ eval:
 
 calibrate:
 	python3 -m kyc_pipeline.calibration
+
+capacity:
+	python3 -m kyc_pipeline.capacity
 
 test:
 	python3 -m unittest discover -s tests -v
