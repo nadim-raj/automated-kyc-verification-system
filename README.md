@@ -109,6 +109,9 @@ data_only_name_mismatch        data_only       review      name_match scored 0.4
 - [Capacity and cost](docs/capacity.md) — the escalation rate a team can sustain, and what each band setting costs in people
 - [Privacy](docs/privacy.md) — data minimisation, redaction, retention, and access
 - [Runbook](docs/runbook.md) — what to do when the escalation rate moves, a model is unavailable, or a provider changes shape
+- [Threat model](docs/threat-model.md) — who would attack an identity check, what the design answers, and what is deliberately out of scope
+- [Reviewer workflow](docs/reviewer-workflow.md) — the human loop, and how reviewer decisions feed back into the evaluation gate
+- [Contributing](CONTRIBUTING.md) — what a routing change has to show before it merges
 - [Scope and exclusions](docs/scope-and-exclusions.md) — what is deliberately missing and why
 - Decision records:
   - [0001 — Separate text and vision signals](docs/decisions/0001-separate-text-and-vision-signals.md)
